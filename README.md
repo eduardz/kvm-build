@@ -1,5 +1,16 @@
 #### KVM host requirements
-#### centos 8 
+#### Fedora 
+sudo dnf install -y \
+git \
+genisoimage \
+libguestfs-tools-c \
+libosinfo \
+python3-libvirt \
+python3-lxml \
+qemu-img \
+virt-install
+
+#### Centos 8 
 sudo dnf install -y \
 git \
 genisoimage \
