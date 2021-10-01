@@ -2,9 +2,9 @@ Deploy new VMs with virt-builder.
 
 Set the kvm server in inventory file
 
+#####
 Setup VM (name, ram, cpu, storage, OS flavor in vms.yml
 
-###########################
 vms.yml example
 
 
