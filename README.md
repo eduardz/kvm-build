@@ -1,4 +1,4 @@
-#### KVM host packages
+#### KVM host requirements
 #### centos 8 
 sudo dnf install -y \
 git \
