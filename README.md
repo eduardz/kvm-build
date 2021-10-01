@@ -10,12 +10,12 @@ vms.yml example
 
 get template names with virt-builder --list
 
-example:
+example for OS template:
 os_template: fedora-34
 os_template: centos-8.2
 os_template: centos-7.8
 
-###
+"""
 guests:
   kube_master:
     mem: 1024
@@ -31,13 +31,13 @@ guests:
     os_type: linux
     file_type: qcow2
     disk_size: 12G
-###
+"""
 
-# deply VMs with password
+
+
+#### deply VMs with password
 ansible-playbook -i inventory kvm.yml -K 
 
 
-# deply VMs with public key
+##### deply VMs with public key
 ansible-playbook -i inventory kvm.yml 
-
-
