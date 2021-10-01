@@ -29,6 +29,9 @@ os_template: fedora-34
 os_template: centos-8.2
 os_template: centos-7.8
 
+Note:
+disk_size only works with redhat flavours 
+
 """
 guests:
   kube_master:
