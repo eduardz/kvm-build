@@ -1,3 +1,17 @@
+#### KVM host packages
+#### centos 8 
+sudo dnf install -y \
+git \
+genisoimage \
+libguestfs-tools-c \
+libosinfo \
+python3 \
+python3-libvirt \
+python3-lxml \
+qemu-img \
+virt-install
+
+
 Deploy new VMs with virt-builder.
 
 Set the kvm server in inventory file
