@@ -1,6 +1,6 @@
 ---
 vm_location: "/data/vms"
-root_pass: "password"
+root_pass: ""
 
 guests:
   kube_master:
