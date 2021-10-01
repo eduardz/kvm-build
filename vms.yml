@@ -1,0 +1,19 @@
+---
+vm_location: "/data/vms"
+root_pass: "password"
+
+guests:
+  kube_master:
+    mem: 1024
+    cpus: 1
+    os_template: centos-8.2
+    os_type: linux
+    file_type: qcow2
+    disk_size: 8G
+  kube_slave01:
+    mem: 1024
+    cpus: 1
+    os_template: centos-7.8
+    os_type: linux
+    file_type: qcow2
+    disk_size: 12G
